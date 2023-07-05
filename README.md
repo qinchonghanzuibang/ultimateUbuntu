@@ -129,6 +129,17 @@ plugins=(
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
+3. **Install more Fonts.** 
+
+Install font-manager and create a folder for fonts.
+
+```sh
+sudo apt install font-manager
+mkdir ~/.fonts
+```
+
+Install [Cascadia Code Releases](https://github.com/microsoft/cascadia-code/releases). After extracting the file and install by opening the .ttf file. 
+
 ### Install [Neovim](https://github.com/neovim/neovim)
 
 This will normally work. However, I am using parallel desktop on a m1 macos and problems occurs that I could only install nvim 0.6 which is way too old. 
