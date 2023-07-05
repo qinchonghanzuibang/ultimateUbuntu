@@ -74,3 +74,19 @@ sudo apt-get install -y git
 sudo apt-get install -y vim
 ```
 
+### Install zsh and oh-my-zsh
+
+After install the zsh, we change the default shell from bash to zsh.  Please reboot the machine after you change the shell. 
+
+```shell
+sudo apt install zsh
+chsh -s /usr/bin/zsh
+```
+
+Installing oh-my-zsh, either via curl or wget. 
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
