@@ -2,6 +2,12 @@
 
 This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parallel desktop. 
 
+### Settings
+
+Disable Panel mode (Settings/Appearance/Dock)
+
+Set the position of Dock on the bottom (Settings/Appearance/Dock)
+
 ### Update the system
 
 ```shell
@@ -55,4 +61,3 @@ List of extensions I would recommend (I have emphasized the currently being used
 - Net Speed Simplified
 - **Blur my Shell**
 - **Vitals**
-
