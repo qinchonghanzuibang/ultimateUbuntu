@@ -2,11 +2,13 @@
 
 This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parallel desktop. 
 
-### Settings
+### Basic Settings
 
-Disable Panel mode (Settings/Appearance/Dock)
+- Disable Panel mode (`Settings/Appearance/Dock`)
 
-Set the position of Dock on the bottom (Settings/Appearance/Dock)
+- Set the position of Dock on the bottom (`Settings/Appearance/Dock`)
+
+- Change the wallpaper
 
 ### Update the system
 
@@ -90,3 +92,40 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+### Configure the terminal
+
+I have changed the Initial terminal size to 140*40 and disabled Terminal bell. Also, I have changed the shortcuts to suit my own needs. 
+
+1. **Make the terminal look prettier. I personally have chosen the [dracula theme]([Dark theme for Gnome Terminal and 342+ apps — Dracula (draculatheme.com)](https://draculatheme.com/gnome-terminal)).**
+
+```shell
+sudo apt-get install dconf.cli
+git clone https://github.com/dracula/gnome-terminal
+cd gnome-terminal
+./install.sh
+```
+
+2. **Install oh-my-zsh plugins (Strongly recommended).** 
+
+- Zsh-autosuggestions
+
+```sh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Add the plugin for oh-my-zsh to load inside `~/.zshrc`. This step will be the same for all other plugins. 
+
+```sh
+plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
+```
+
+- Zsh-syntax-highlighting
+
+```sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+3. 
