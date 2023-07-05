@@ -129,11 +129,29 @@ plugins=(
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-### Install Neovim
+### Install [Neovim]([neovim/neovim: Vim-fork focused on extensibility and usability (github.com)](https://github.com/neovim/neovim))
+
+This will normally work. However, I am using parallel desktop on a m1 macos and problems occurs that I could only install nvim 0.6 which is way too old. 
 
 ```shell
 sudo apt update
 sudo apt install neovim
+```
+
+Install from [sources]([Building Neovim · neovim/neovim Wiki (github.com)](https://github.com/neovim/neovim/wiki/Building-Neovim)): 
+
+```sh
+sudo apt-get install ninja-build gettext cmake unzip curl
+git clone https://github.com/neovim/neovim
+cd neovim
+```
+
+I have chosen to install the stable version.
+
+```sh
+git checkout stable
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 ```
 
 Todo: Configure neovim. Install java. 
