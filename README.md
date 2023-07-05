@@ -11,7 +11,7 @@ This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parall
 - Change the wallpaper (can be found in the repo)
 - Enable Auto-hide the Dock (`Settings/Appearance/Dock`)
 
-### Update the system
+### Update the System
 
 ```shell
 sudo apt update
@@ -52,7 +52,7 @@ Finally, install the Firefox via apt.
 sudo apt install firefox
 ```
 
-### Install extension manager
+### Install Extension Manager
 
 ```shell
 sudo apt install gnome-shell-extension-manager
@@ -65,19 +65,19 @@ List of extensions I would recommend (I have emphasized the currently being used
 - <u>*Blur my Shell*</u>
 - <u>*Vitals*</u>
 
-### Install git
+### Install Git
 
 ```shell
 sudo apt-get install -y git
 ```
 
-### Install vim
+### Install Vim
 
 ```shell
 sudo apt-get install -y vim
 ```
 
-### Install zsh and oh-my-zsh
+### Install Zsh and oh-my-zsh
 
 After install the zsh, we change the default shell from bash to zsh.  Please reboot the machine after you change the shell. 
 
@@ -93,7 +93,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-### Configure the terminal
+### Configure the Terminal
 
 I have changed the Initial terminal size to 140*40 and disabled Terminal bell. Also, I have changed the shortcuts to suit my own needs. 
 
@@ -129,6 +129,11 @@ plugins=(
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
+### Install Neovim
 
+```shell
+sudo apt update
+sudo apt install neovim
+```
 
-Todo: install nvim and configure it. Install java. 
+Todo: Configure neovim. Install java. 
