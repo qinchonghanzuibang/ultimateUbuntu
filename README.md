@@ -184,9 +184,7 @@ sudo apt update
 sudo apt install neovim
 ```
 
-Install from [sources](https://github.com/neovim/neovim/wiki/Building-Neovim)
-
-<a href="https://github.com/neovim/neovim/wiki/Building-Neovim" target="_blank">sources</a>
+Install from [sources](https://github.com/neovim/neovim/wiki/Building-Neovim).
 
 
 ```sh
