@@ -8,7 +8,8 @@ This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parall
 
 - Set the position of Dock on the bottom (`Settings/Appearance/Dock`)
 
-- Change the wallpaper
+- Change the wallpaper (can be found in the repo)
+- Enable Auto-hide the Dock (`Settings/Appearance/Dock`)
 
 ### Update the system
 
@@ -61,8 +62,8 @@ List of extensions I would recommend (I have emphasized the currently being used
 
 - User Themes.
 - Net Speed Simplified
-- *Blur my Shell*
-- *Vitals*
+- <u>*Blur my Shell*</u>
+- <u>*Vitals*</u>
 
 ### Install git
 
@@ -128,4 +129,6 @@ plugins=(
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-3. 
+
+
+Todo: install nvim and configure it. Install java. 
