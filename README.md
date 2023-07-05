@@ -43,3 +43,9 @@ Finally, install the Firefox via apt.
 sudo apt install firefox
 ```
 
+#### Install extension manager
+
+```shell
+sudo apt install gnome-shell-extension-manager
+```
+
