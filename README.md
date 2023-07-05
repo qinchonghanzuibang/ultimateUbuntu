@@ -2,7 +2,21 @@
 
 This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parallel desktop. 
 
-### Basic Settings
+## Table of Contents<a id="content"></a>
+
+- [Basic Settings](#bs)
+- [Update the System](#uts)
+- [Install Gnome Tweaks](#igt)
+- [Replace the snap-Firefox](#rtsf)
+- [Install Extension Manager](#iem)
+- [Install Git](#ig)
+- [Install Vim](#iv)
+- [Install Zsh and oh-my-zsh](#izao)
+- [Configure the Terminal](#ctt)
+- [Install Visual Studio Code](#ivsc)
+- [Install Neovim](#ineov)
+
+### Basic Settings<a id="bs"></a>
 
 - Disable Panel mode (`Settings/Appearance/Dock`)
 
@@ -11,18 +25,23 @@ This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parall
 - Change the wallpaper (can be found in the repo)
 - Enable Auto-hide the Dock (`Settings/Appearance/Dock`)
 
-### Update the System
+[Back to top](#content)
+
+### Update the System<a id="uts"></a>
 
 ```shell
 sudo apt update
 sudo apt upgrade
 ```
-### Install Gnome Tweaks
+[Back to top](#content)
+
+### Install Gnome Tweaks<a id="igt"></a>
 ```shell
 sudo apt install gnome-tweaks
 ```
+[Back to top](#content)
 
-### Replace the snap-Firefox
+### Replace the snap-Firefox<a id="rtsf"></a>
 
 Remove the Firefox snap and add Mozilla team PPA. 
 
@@ -51,8 +70,9 @@ Finally, install the Firefox via apt.
 ```shell
 sudo apt install firefox
 ```
+[Back to top](#content)
 
-### Install Extension Manager
+### Install Extension Manager<a id="iem"></a>
 
 ```shell
 sudo apt install gnome-shell-extension-manager
@@ -64,20 +84,23 @@ List of extensions I would recommend (I have emphasized the currently being used
 - Net Speed Simplified
 - <u>*Blur my Shell*</u>
 - <u>*Vitals*</u>
+[Back to top](#content)
 
-### Install Git
+### Install Git<a id="ig"></a>
 
 ```shell
 sudo apt-get install -y git
 ```
+[Back to top](#content)
 
-### Install Vim
+### Install Vim<a id="iv"></a>
 
 ```shell
 sudo apt-get install -y vim
 ```
+[Back to top](#content)
 
-### Install Zsh and oh-my-zsh
+### Install Zsh and oh-my-zsh<a id="izao"></a>
 
 After install the zsh, we change the default shell from bash to zsh.  Please reboot the machine after you change the shell. 
 
@@ -92,8 +115,9 @@ Installing oh-my-zsh, either via curl or wget.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
+[Back to top](#content)
 
-### Configure the Terminal
+### Configure the Terminal<a id="ctt"></a>
 
 I have changed the Initial terminal size to 140*40 and disabled Terminal bell. Also, I have changed the shortcuts to suit my own needs. 
 
@@ -139,16 +163,19 @@ mkdir ~/.fonts
 ```
 
 Install [Cascadia Code Releases](https://github.com/microsoft/cascadia-code/releases). After extracting the file and install by opening the .ttf file. 
+[Back to top](#content)
 
-### Install Visual Studio Code
+### Install Visual Studio Code<a id="ivsc"></a>
 
 Download the debian packages [here]([Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)).
 
 ```sh
 sudo apt install ./<file>.deb
 ```
+[Back to top](#content)
 
-### Install [Neovim](https://github.com/neovim/neovim)
+
+### Install [Neovim](https://github.com/neovim/neovim)<a id="ineov"></a>
 
 This will normally work. However, I am using parallel desktop on a m1 macos and problems occurs that I could only install nvim 0.6 which is way too old. 
 
@@ -172,5 +199,6 @@ git checkout stable
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
+[Back to top](#content)
 
 Todo: Configure neovim. Install java. 
