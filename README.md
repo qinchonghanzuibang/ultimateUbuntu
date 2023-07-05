@@ -121,7 +121,7 @@ sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/ins
 
 I have changed the Initial terminal size to 140*40 and disabled Terminal bell. Also, I have changed the shortcuts to suit my own needs. 
 
-1. **Make the terminal look prettier. I personally have chosen the [dracula theme]([Dark theme for Gnome Terminal and 342+ apps — Dracula (draculatheme.com)](https://draculatheme.com/gnome-terminal)).**
+1. **Make the terminal look prettier. I personally have chosen the [dracula theme](https://draculatheme.com/gnome-terminal).**
 
 ```shell
 sudo apt-get install dconf.cli
