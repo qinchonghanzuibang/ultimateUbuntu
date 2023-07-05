@@ -59,8 +59,8 @@ List of extensions I would recommend (I have emphasized the currently being used
 
 - User Themes.
 - Net Speed Simplified
-- **Blur my Shell**
-- **Vitals**
+- *Blur my Shell*
+- *Vitals*
 
 ### Install git
 
