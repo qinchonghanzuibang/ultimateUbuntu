@@ -140,6 +140,14 @@ mkdir ~/.fonts
 
 Install [Cascadia Code Releases](https://github.com/microsoft/cascadia-code/releases). After extracting the file and install by opening the .ttf file. 
 
+### Install Visual Studio Code
+
+Download the debian packages [here]([Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)).
+
+```sh
+sudo apt install ./<file>.deb
+```
+
 ### Install [Neovim](https://github.com/neovim/neovim)
 
 This will normally work. However, I am using parallel desktop on a m1 macos and problems occurs that I could only install nvim 0.6 which is way too old. 
