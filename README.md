@@ -184,7 +184,7 @@ sudo apt update
 sudo apt install neovim
 ```
 
-Install from [sources](https://github.com/neovim/neovim/wiki/Building-Neovim)
+Install from [sources](https://github.com/neovim/neovim/wiki/Building-Neovim){:target="_blank"}
 
 ```sh
 sudo apt-get install ninja-build gettext cmake unzip curl
