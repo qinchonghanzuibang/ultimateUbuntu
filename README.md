@@ -2,18 +2,18 @@
 
 This repository will illustrate how I set up my Ubuntu22.04 ARM64(LTS) in parallel desktop. 
 
-#### Update the system
+### Update the system
 
 ```shell
 sudo apt update
 sudo apt upgrade
 ```
-#### Install Gnome Tweaks
+### Install Gnome Tweaks
 ```shell
 sudo apt install gnome-tweaks
 ```
 
-#### Replace the snap-Firefox
+### Replace the snap-Firefox
 
 Remove the Firefox snap and add Mozilla team PPA. 
 
@@ -43,9 +43,16 @@ Finally, install the Firefox via apt.
 sudo apt install firefox
 ```
 
-#### Install extension manager
+### Install extension manager
 
 ```shell
 sudo apt install gnome-shell-extension-manager
 ```
+
+List of extensions I would recommend (I have emphasized the currently being used ones):
+
+- User Themes.
+- Net Speed Simplified
+- **Blur my Shell**
+- **Vitals**
 
