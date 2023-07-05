@@ -61,3 +61,16 @@ List of extensions I would recommend (I have emphasized the currently being used
 - Net Speed Simplified
 - **Blur my Shell**
 - **Vitals**
+
+### Install git
+
+```shell
+sudo apt-get install -y git
+```
+
+### Install vim
+
+```shell
+sudo apt-get install -y vim
+```
+
