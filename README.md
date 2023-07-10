@@ -249,7 +249,9 @@ Plugins I use in my neovim:
 - [undotree](https://github.com/mbbill/undotree)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
-- [coc.nvim](https://github.com/neoclide/coc.nvim)
+- [coc](https://github.com/neoclide/coc.nvim)
+- [code_runner](https://github.com/CRAG666/code_runner.nvim/tree/main)
+- [betterTerm](https://github.com/CRAG666/betterTerm.nvim)
 
 You may refer to my [dotfiles](https://github.com/qinchonghanzuibang/dotfiles/tree/main). 
 
