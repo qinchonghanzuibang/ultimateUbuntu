@@ -224,6 +224,7 @@ Plugins I use in my neovim:
 - [harpoon](https://github.com/ThePrimeagen/harpoon)
 - [undotree](https://github.com/mbbill/undotree)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 Some problems that might occur: 
 
