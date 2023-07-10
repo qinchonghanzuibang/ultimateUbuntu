@@ -252,6 +252,8 @@ Plugins I use in my neovim:
 - [coc](https://github.com/neoclide/coc.nvim)
 - [code_runner](https://github.com/CRAG666/code_runner.nvim/tree/main)
 - [betterTerm](https://github.com/CRAG666/betterTerm.nvim)
+- [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [lualine-copilot](https://github.com/ofseed/lualine-copilot)
 
 You may refer to my [dotfiles](https://github.com/qinchonghanzuibang/dotfiles/tree/main). 
 
