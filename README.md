@@ -249,6 +249,8 @@ Plugins I use in my neovim:
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [coc.nvim](https://github.com/neoclide/coc.nvim)
 
+You may refer to my [dotfiles](https://github.com/qinchonghanzuibang/dotfiles/tree/main). 
+
 Some problems that might occur: 
 
 1. Cannot use PackerSync or other packer functions unless we source the `packer.lua` first. 
