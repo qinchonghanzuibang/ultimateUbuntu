@@ -216,23 +216,25 @@ All the neovim configuration files are stored inside the `~/.config/nvim`.
 ```sh
 .
 ├── after
-│   └── plugin
-│       ├── coc.lua
-│       ├── colorscheme.lua
-│       ├── fugitive.lua
-│       ├── hardline.lua
-│       ├── harpoon.lua
-│       ├── telescope.lua
-│       ├── treesitter.lua
-│       └── undotree.lua
+│   └── plugin
+│       ├── betterTerm.lua
+│       ├── coc.lua
+│       ├── code_runner.lua
+│       ├── colorscheme.lua
+│       ├── fugitive.lua
+│       ├── hardline.lua
+│       ├── harpoon.lua
+│       ├── telescope.lua
+│       ├── treesitter.lua
+│       └── undotree.lua
+├── coc-settings.json
 ├── init.lua
 ├── lua
-│   └── moonquake
-│       ├── exec.lua
-│       ├── init.lua
-│       ├── packer.lua
-│       ├── remap.lua
-│       └── settings.lua
+│   └── moonquake
+│       ├── init.lua
+│       ├── packer.lua
+│       ├── remap.lua
+│       └── settings.lua
 └── plugin
     └── packer_compiled.lua
 ```
