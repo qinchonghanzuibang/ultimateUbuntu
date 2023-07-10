@@ -259,7 +259,7 @@ Some problems that might occur:
 
 1. Cannot use PackerSync or other packer functions unless we source the `packer.lua` first. 
 
-- Solution: Add `require()` statement in the outermost `init.lua`. 
+- Solution: Add `require()` statement in the inner `init.lua`. 
 
 2. After installing the tree-sitter plugin, tree-sitter cli not found
 
