@@ -213,6 +213,30 @@ sudo apt-get install tree
 
 All the neovim configuration files are stored inside the `~/.config/nvim`.
 
+```sh
+.
+├── after
+│   └── plugin
+│       ├── coc.lua
+│       ├── colorscheme.lua
+│       ├── fugitive.lua
+│       ├── hardline.lua
+│       ├── harpoon.lua
+│       ├── telescope.lua
+│       ├── treesitter.lua
+│       └── undotree.lua
+├── init.lua
+├── lua
+│   └── moonquake
+│       ├── exec.lua
+│       ├── init.lua
+│       ├── packer.lua
+│       ├── remap.lua
+│       └── settings.lua
+└── plugin
+    └── packer_compiled.lua
+```
+
 Plugins I use in my neovim:
 
 - [packer](https://github.com/wbthomason/packer.nvim)
