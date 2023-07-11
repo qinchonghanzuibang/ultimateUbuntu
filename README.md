@@ -254,6 +254,7 @@ Plugins I use in my neovim:
 - [betterTerm](https://github.com/CRAG666/betterTerm.nvim)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [lualine-copilot](https://github.com/ofseed/lualine-copilot)
+- [Comment](https://github.com/numToStr/Comment.nvim)
 
 You may refer to my [dotfiles](https://github.com/qinchonghanzuibang/dotfiles/tree/main). 
 
